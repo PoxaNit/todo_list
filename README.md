@@ -17,7 +17,7 @@ POST /
 PUT /{id}
     Updates the content of a specific task.
     Expected request body:
-        {"content": "a b c"}
+        {"task": "a b c"}
 
 DELETE /{id}
     Deletes the specified task.
